@@ -18,7 +18,6 @@ public class Parser {
             line = line.replace("\n", "");
             //Split lines at the end of the sentence
             String [] fields = line.split("^\\s+[a-zA-Z\\s]+[.?!]$");
-            //String[] fields = line.split("(?<!Mr|Mrs|Dr|Ms)\\.");
 
         return fields;
     }
