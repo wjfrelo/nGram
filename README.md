@@ -1,0 +1,2 @@
+# nGram
+Implement Java NGram
